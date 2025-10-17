@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNG Task 0 - Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article class="profile-card" data-testid="test-profile-card">
+
+        <figure class="avatar-container">
+            <img class="avatar" src="avatar.png" alt="Tife's Profile" data-testid="test-user-avatar">
+        </figure>
+
+        <div class="content-wrapper">
+            <header class="name">
+                <h2 data-testid="test-user-name">Boluwatife O-Oluyomi</h2>
+            </header>
+
+            <p class="bio" data-testid="test-user-bio">
+                A 400-level Systems Engineering student at the University of Lagos with two diplomas in Computer Science and Frontend Development.
+            </p>
+
+            <section class="time-section">
+                <p>Current Time (ms):</p>
+                <time data-testid="test-user-time">0000000000000</time>
+            </section>
+        </div>
+
+        <nav class="social-links-container" data-testid="test-user-social-links">
+            <ul>
+                <li>
+                    <a href="https://github.com/tifee13" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">
+                        GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/boluwatife-o-oluyomi" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/_tifee._" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-instagram">
+                        Instagram
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="lists-container">
+            <section class="list-item">
+                <h3>Hobbies </h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Writing Poems</li>
+                    <li>Listening to pop songs</li>
+                    <li>Baking Bread</li>
+                </ul>
+            </section>
+
+            <section class="list-item">
+                <h3>Dislikes </h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Dull Colors</li>
+                    <li>Coconut</li>
+                    <li>Football</li>
+                </ul>
+            </section>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
