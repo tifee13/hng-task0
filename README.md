@@ -1,17 +1,17 @@
-# HNG FRONTEND — StTAGE 0 TASK: Build a Testable Profile Card
+# HNG FRONTEND — STAGE 0 TASK: Build a Testable Profile Card
 
-## Live Demo
+### Live Demo
 
 The completed project is hosted live here:
 [My Live Profile Card](https://profilecardhng0.netlify.app/)
 
-## How to Run Locally
+### How to Run Locally
 
-### Prerequisites
+#### Prerequisites
 
 You need a modern web browser (Chrome, Firefox, Safari, etc.).
 
-### Steps
+#### Steps
 
 1.  **Clone the Repository:**
     Open your terminal or command prompt and run the following command.
