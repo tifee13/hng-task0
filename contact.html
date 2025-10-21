@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <main class="form-container">
+        <form id="contactForm">
+
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input 
+                    type="text" 
+                    id="fullName" 
+                    name="fullName" 
+                    required 
+                    data-testid="test-contact-name"
+                    aria-describedby="error-name"
+                >
+                <p id="error-name" class="error-message" data-testid="test-contact-error-name" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required 
+                    data-testid="test-contact-email"
+                    aria-describedby="error-email"
+                >
+                <p id="error-email" class="error-message" data-testid="test-contact-error-email" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input 
+                    type="text" 
+                    id="subject" 
+                    name="subject" 
+                    required 
+                    data-testid="test-contact-subject"
+                    aria-describedby="error-subject"
+                >
+                <p id="error-subject" class="error-message" data-testid="test-contact-error-subject" aria-live="polite"></p>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message </label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    required 
+                    rows="5" 
+                    data-testid="test-contact-message"
+                    aria-describedby="error-message-text"
+                ></textarea>
+                <p id="error-message-text" class="error-message" data-testid="test-contact-error-message" aria-live="polite"></p>
+            </div>
+
+            <button type="submit" data-testid="test-contact-submit">Submit</button>
+
+            <div id="successMessage" class="success-message" data-testid="test-contact-success" role="alert" aria-hidden="true">
+                Thank you! Your message has been submitted.
+            </div>
+
+        </form>
+        <a href="index.html" class="back-link">← Back to Profile</a>
+
+    </main>
+</body>
+</html>

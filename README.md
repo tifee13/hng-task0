@@ -1,5 +1,5 @@
-# HNG FRONTEND — STAGE 0 TASK: Build a Testable Profile Card
-
+# HNG FRONTEND — STAGE 1 TASK: Multi-Page Application
+This project is a continuation of Stage 0 adding contact us page and About me page.
 ### Live Demo
 
 The completed project is hosted live here:
